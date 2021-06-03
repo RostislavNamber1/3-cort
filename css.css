@@ -69,6 +69,7 @@ section + section{
   max-width: 800px;
   padding: 30px;
   position: relative;
+  transition: all .4s ease 0s;
   }
 .popup__cloce{
   position: absolute;
