@@ -34,22 +34,17 @@ section + section{
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.51);
+  background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
   opacity: 0;
   visibility: hidden;
   overflow-y: auto;
   overflow-x: hidden;
-  transition: all .5s ease 0s;
 }
 .popup:target{
   opacity: 1;
   visibility: visible;
-}
-.popup:target .popup__content{
-  transform: translate(0px, 0px);
-  opacity: 1;
 }
 .popup__area{
   position: absolute;
@@ -74,9 +69,6 @@ section + section{
   max-width: 800px;
   padding: 30px;
   position: relative;
-  transition: all 0s ease 0s;
-  opacity: 0;
-  transform: translate(0px, -100%);
   }
 .popup__cloce{
   position: absolute;
@@ -92,4 +84,3 @@ section + section{
 .popup__text{
 
 }
-/* анимация для попапа */
